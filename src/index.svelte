@@ -52,6 +52,6 @@
   alt={alt}
   on:load={handleLoad}
   bind:this={imgElement}
-  class="svelte-lazy-image"
+  class={classExtra}
   class:svelte-lazy-image--loaded="{loaded}"
 />
