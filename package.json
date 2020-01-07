@@ -3,11 +3,11 @@
   "description": "Svelte component to lazy load images using Intersection Observer",
   "author": {
     "name": "Alexander Staroselsky",
-    "url": "https://github.com/alexstaroselsky"
+    "url": "https://github.com/asvsfs"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexstaroselsky/svelte-lazy-image.git"
+    "url": "https://github.com/asvsfs/svelte-lazy-image.git"
   },
   "svelte": "src/index.svelte",
   "module": "index.mjs",
@@ -27,7 +27,8 @@
   "files": [
     "src",
     "index.mjs",
-    "index.js"
+    "index.js",
+    "rollup.config.js"
   ],
   "version": "0.0.2"
 }
