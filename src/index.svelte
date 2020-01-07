@@ -13,7 +13,7 @@
   export let placeholder;
   export let src;
   export let alt;
-
+  export let classExtra;
   let imgElement;
   let path;
 
@@ -37,6 +37,15 @@
     }
   }
 </script>
+
+<img
+  src={path}
+  {alt}
+  on:load={handleLoad}
+  bind:this={imgElement}
+  class={classExtra}
+  class:svelte-lazy-image--loaded={loaded} />
+
 
 <img
   src={path}
